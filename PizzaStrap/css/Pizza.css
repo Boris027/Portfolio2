@@ -1,0 +1,62 @@
+/*************************************************/
+/*         Hoja de estilo Pizza.html             */
+/*         Autor; Boris Gallego Rí­os             */
+/*         Version:1.0                           */
+/*         Comentario: ejercicio bootstrap       */
+/*************************************************/
+
+/**/
+
+/*Formateo que afecta a todo*/
+*{
+    box-sizing: border-box;
+    font-family: letramal;
+}
+
+/*Formateo del body*/
+body{
+    background-image: url(../Img/fondouwu.jpg) ;
+}
+
+/*Formateo del wrapper*/
+#wrapper{
+    background-color: white;
+    
+}
+
+/*Formateo del subdiv*/
+#subdiv{
+    width: 80%
+}
+
+/*Formateo del h1*/
+h1{
+    text-shadow: 2px 2px #F1BF00;
+    font-size: 2em!important
+}
+
+/*Formateo del blockquote*/
+blockquote{
+    font-family: comicitalic;
+}
+
+/*Formateo del ul*/
+ul{
+    
+    list-style-image: url(../img/pizzabuttonxd.png);
+    
+}
+
+/*Fuentes de letras*/
+@font-face {
+    font-family: letramal;
+    src: url(../fonts/Ldfcomicsansbold-zgma.ttf);
+}
+@font-face {
+    font-family: comicitalic;
+    src: url(../fonts/comic-sans-ms-bold-italic.ttf);
+}
+
+
+
+
